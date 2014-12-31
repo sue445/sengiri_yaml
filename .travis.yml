@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+- 2.1
+- 2.2
+- ruby-head
+bundler_args: "--jobs=2"
+before_script:
+#- export CODECLIMATE_REPO_TOKEN=
+#- export COVERAGE=true
+script:
+- bundle exec rspec
+branches:
+  only:
+  - master
+notifications:
+  email: false
+  slack:
+    secure: Wz6kbQXUl1J+XVLR/yt0XeI+FEiwcSNsGTsRdKBYSN1CEWnws0BwbWSN1tyRGmMXODiCAHchdGKEqgkm2Nk1/wEhBpCoF/clEeUq8fKyAIdKkEg3laBFI5dSdBm+eYcqQAdUnWeDHnQgdGT1lQBAe6tIAaN6Oqaw1v9bexvQgv8=
+matrix:
+  allow_failures:
+  - rvm: ruby-head
