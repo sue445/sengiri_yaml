@@ -5,8 +5,7 @@ rvm:
 - ruby-head
 bundler_args: "--jobs=2"
 before_script:
-#- export CODECLIMATE_REPO_TOKEN=
-#- export COVERAGE=true
+- export COVERAGE=true
 script:
 - bundle exec rspec
 branches:

@@ -1,3 +1,8 @@
+if ENV["COVERAGE"]
+  require 'coveralls'
+  Coveralls.wear!
+end
+
 require "sengiri_yaml"
 require "rspec/temp_dir"
 require "rspec/power_assert"
