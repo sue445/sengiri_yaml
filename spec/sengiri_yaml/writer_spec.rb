@@ -1,8 +1,8 @@
 describe SengiriYaml::Writer do
   let(:writer){ SengiriYaml::Writer.new }
 
-  describe "#split" do
-    subject{ writer.split(src_file, dst_dir) }
+  describe "#divide" do
+    subject{ writer.divide(src_file, dst_dir) }
 
     include_context "uses temp dir"
 
