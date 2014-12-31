@@ -1,3 +1,13 @@
 #!/usr/bin/env ruby
 
 require 'sengiri_yaml'
+
+unless ARGV.length == 2
+  puts <<-EOS
+sengiri_yaml <source_yaml> <destination_dir>
+  EOS
+
+  exit
+end
+
+SengiriYaml::Writer.new.split(ARGV[0], ARGV[1])
