@@ -6,8 +6,7 @@ module SengiriYaml
   module_function
 
   # load divided yaml files
-  # @param src_dir [String] divided yaml dir
-  # @return [Hash] merged yaml hash
+  # @see SengiriYaml::Loader#load_dir
   def load_dir(src_dir)
     SengiriYaml::Loader.new.load_dir(src_dir)
   end
