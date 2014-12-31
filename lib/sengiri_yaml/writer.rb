@@ -6,7 +6,7 @@ module SengiriYaml
     # @param src_file [String]
     # @param dst_dir  [String]
     # @return [Array<String>] divided yaml filenames
-    def split(src_file, dst_dir)
+    def divide(src_file, dst_dir)
       FileUtils.mkdir_p(dst_dir) unless File.exist?(dst_dir)
 
       src_content = YAML.load_file(src_file)

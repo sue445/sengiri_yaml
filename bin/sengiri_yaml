@@ -10,4 +10,4 @@ sengiri_yaml <source_yaml> <destination_dir>
   exit
 end
 
-SengiriYaml::Writer.new.split(ARGV[0], ARGV[1])
+SengiriYaml::Writer.new.divide(ARGV[0], ARGV[1])
