@@ -5,7 +5,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/sue445/sengiri_yaml.svg)](https://coveralls.io/r/sue445/sengiri_yaml)
 [![Dependency Status](https://gemnasium.com/sue445/sengiri_yaml.svg)](https://gemnasium.com/sue445/sengiri_yaml)
 
-TODO: Write a gem description
+divide yaml file
 
 ## Installation
 
@@ -29,7 +29,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/sengiri_yaml/fork )
+1. Fork it ( https://github.com/sue445/sengiri_yaml/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
