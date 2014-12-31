@@ -26,7 +26,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### divide yaml
+```bash
+$ sengiri_yaml "/path/to/fat.yml" "/path/to/fat_dir"
+```
+
+### load divided yaml
+```ruby
+merged_data = SengiriYaml.load_dir("/path/to/fat_dir")
+```
 
 ## Contributing
 
