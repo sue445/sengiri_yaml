@@ -1,5 +1,6 @@
 module SengiriYaml
   require "yaml"
+  require "fileutils"
 
   class Writer
     # divide yaml file
