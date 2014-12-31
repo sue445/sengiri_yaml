@@ -17,4 +17,3 @@ module SengiriYaml
     end
   end
 end
-

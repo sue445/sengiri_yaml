@@ -7,8 +7,8 @@ describe SengiriYaml::Loader do
     let(:fixture_dir){ "#{spec_dir}/fixtures/loader" }
     let(:merged_hash) do
       {
-        'data1' => {'value' => 1},
-        'data2' => {'value' => 2},
+        'data1' => { 'value' => 1 },
+        'data2' => { 'value' => 2 },
       }
     end
 
