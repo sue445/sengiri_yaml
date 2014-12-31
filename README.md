@@ -1,5 +1,6 @@
 # SengiriYaml
 
+[![Gem Version](https://badge.fury.io/rb/sengiri_yaml.svg)](http://badge.fury.io/rb/sengiri_yaml)
 [![Build Status](https://travis-ci.org/sue445/sengiri_yaml.svg?branch=master)](https://travis-ci.org/sue445/sengiri_yaml)
 [![Code Climate](https://codeclimate.com/github/sue445/sengiri_yaml/badges/gpa.svg)](https://codeclimate.com/github/sue445/sengiri_yaml)
 [![Coverage Status](https://img.shields.io/coveralls/sue445/sengiri_yaml.svg)](https://coveralls.io/r/sue445/sengiri_yaml)
