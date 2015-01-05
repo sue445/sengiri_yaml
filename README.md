@@ -28,12 +28,32 @@ Or install it yourself as:
 
 ### divide yaml
 ```bash
+$ cat "/path/to/fat.yml"
+- data1: data1
+  value: 1
+- data2: data2
+  value: 2
+
 $ sengiri_yaml "/path/to/fat.yml" "/path/to/fat_dir"
+
+$ ls "/path/to/fat_dir"
+data1.yml data2.yml
+
+$ cat data1.yml
+---
+- data1: data1
+  value: 1
+
+$ cat data2.yml
+---
+- data2: data2
+  value: 2
 ```
 
 ### load divided yaml
 ```ruby
 merged_data = SengiriYaml.load_dir("/path/to/fat_dir")
+# => [{"data1" => "data1", "value" => 1}, {"data2" => "data2", "value" => 2}]
 ```
 
 ## Contributing
