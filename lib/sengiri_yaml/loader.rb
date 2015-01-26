@@ -1,5 +1,6 @@
 module SengiriYaml
   require "yaml"
+  require "pathname"
 
   class Loader
     # load divided yaml files
