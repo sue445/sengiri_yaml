@@ -9,7 +9,7 @@ module SengiriYaml
     def load_dir(src_dir)
       merged_content = ""
 
-      Pathname.glob("#{src_dir}/*.yml") do |yaml_path|
+      Pathname.glob("#{src_dir}/*.yml").sort.each do |yaml_path|
         content = yaml_path.read.gsub(/^---$/, "")
         merged_content << content
       end
