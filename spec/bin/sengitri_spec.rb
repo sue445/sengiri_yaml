@@ -11,7 +11,7 @@ sengiri_yaml <source_yaml> <destination_dir>
         EOS
       end
 
-      it{ should eq help }
+      it{ should start_with help }
     end
 
     context "with 2 args" do
