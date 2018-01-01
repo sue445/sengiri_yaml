@@ -1,6 +1,6 @@
 describe SengiriYaml do
   describe "sengiri_yaml" do
-    subject { `bundle exec ./bin/sengiri_yaml #{option}` }
+    subject { `./bin/sengiri_yaml #{option}` }
 
     context "without 2 args" do
       let(:option){ "--help" }
