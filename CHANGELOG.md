@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.0.4](https://github.com/sue445/sengiri_yaml/tree/v0.0.4) (2021-11-20)
+[Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v0.0.3...v0.0.4)
+
+* Enable MFA requirement for gem releasing
+  * https://github.com/sue445/sengiri_yaml/pull/24
+
 ## [v0.0.3](https://github.com/sue445/sengiri_yaml/tree/v0.0.3) (2016-04-26)
 [Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v0.0.2...v0.0.3)
 
