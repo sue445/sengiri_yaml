@@ -5,7 +5,6 @@ end
 
 require "sengiri_yaml"
 require "rspec/temp_dir"
-require "rspec/power_assert"
 
 def spec_dir
   Pathname(__dir__)
