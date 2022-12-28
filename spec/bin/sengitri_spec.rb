@@ -23,7 +23,7 @@ sengiri_yaml <source_yaml> <destination_dir>
 
       it "should create divided yaml" do
         subject
-        is_asserted_by{ Dir.glob("#{temp_dir}/*.yml").count == 2 }
+        expect(Dir.glob("#{temp_dir}/*.yml").count).to eq 2
       end
     end
   end

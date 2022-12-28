@@ -36,8 +36,8 @@ data2:
       end
 
       it{ should eq [data1_file, data2_file] }
-      it_is_asserted_by{ File.read(data1_file) == data1_yml }
-      it_is_asserted_by{ File.read(data2_file) == data2_yml }
+      it { expect(File.read(data1_file)).to eq data1_yml }
+      it { expect(File.read(data2_file)).to eq data2_yml }
     end
 
     describe "with array yaml" do
@@ -72,8 +72,8 @@ data2:
       end
 
       it{ should eq [data1_file, data2_file] }
-      it_is_asserted_by{ File.read(data1_file) == data1_yml }
-      it_is_asserted_by{ File.read(data2_file) == data2_yml }
+      it { expect(File.read(data1_file)).to eq data1_yml }
+      it { expect(File.read(data2_file)).to eq data2_yml }
     end
   end
 end
