@@ -1,7 +1,13 @@
 # Change Log
 
 ## Unreleased
-[Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v1.0.0...master)
+[Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v1.0.1...master)
+
+## [v1.0.1](https://github.com/sue445/sengiri_yaml/releases/tag/v1.0.1) (2025-11-30)
+[Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v1.0.0...v1.0.1)
+
+* Release gem from GitHub Actions
+  * https://github.com/sue445/sengiri_yaml/pull/47
 
 ## [v1.0.0](https://github.com/sue445/sengiri_yaml/tree/v0.0.4) (2021-12-31)
 [Full Changelog](https://github.com/sue445/sengiri_yaml/compare/v0.0.4...v1.0.0)
