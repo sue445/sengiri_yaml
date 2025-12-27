@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "logger"
   spec.add_development_dependency "ostruct"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rdoc"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-temp_dir"
   spec.add_development_dependency "term-ansicolor", "!= 1.11.1" # ref. https://github.com/flori/term-ansicolor/issues/41
