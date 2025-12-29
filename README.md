@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sengiri_yaml.svg)](http://badge.fury.io/rb/sengiri_yaml)
 [![test](https://github.com/sue445/sengiri_yaml/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/sengiri_yaml/actions/workflows/test.yml)
-[![Code Climate](https://codeclimate.com/github/sue445/sengiri_yaml/badges/gpa.svg)](https://codeclimate.com/github/sue445/sengiri_yaml)
+[![Maintainability](https://qlty.sh/gh/sue445/projects/sengiri_yaml/maintainability.svg)](https://qlty.sh/gh/sue445/projects/sengiri_yaml)
 [![Coverage Status](https://img.shields.io/coveralls/sue445/sengiri_yaml.svg)](https://coveralls.io/r/sue445/sengiri_yaml)
 
 divide yaml file
